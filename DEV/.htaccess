@@ -1,0 +1,88 @@
+php_value display_errors On
+
+
+
+
+
+
+
+php_value mbstring.http_input auto
+
+
+
+
+
+
+
+php_value date.timezone Europe/London
+
+
+
+
+
+
+
+DirectoryIndex index.php
+
+
+
+
+
+
+
+ErrorDocument 400 https://storieslight.com/error-pages/401.php
+
+
+
+
+
+
+
+ErrorDocument 401 https://storieslight.com/error-pages/401.php
+
+
+
+
+
+
+
+ErrorDocument 403 https://storieslight.com/error-pages/403.php
+
+
+
+
+
+
+
+ErrorDocument 404 https://storieslight.com/error-pages/404.php
+
+
+
+
+
+
+
+ErrorDocument 500 https://storieslight.com/error-pages/500.php
+
+
+
+
+
+
+
+ErrorDocument 503 https://storieslight.com/error-pages/503.php
+
+
+
+
+
+
+
+Options Indexes
+
+#####THE FOLLOWING IS REQUIRED FOR PROTECTED FOLDERS
+AuthUserFile /home/vol1_3/epizy.com/epiz_27352816/htdocs/DEV//.htpasswd.c5b1830f58d610dd05d8a44a9c335024
+AuthName password_required
+AuthType Basic
+Require valid-user
+########END REQUIRE

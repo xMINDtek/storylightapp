@@ -1,0 +1,5 @@
+ErrorDocument 400 http://storieslight.com/error-pages/400.php
+ErrorDocument 401 http://storieslight.com/error-pages/401.php
+ErrorDocument 403 http://storieslight.com/error-pages/403.php
+ErrorDocument 404 http://storieslight.com/error-pages/404.php
+ErrorDocument 503 http://storieslight.com/error-pages/503.php

@@ -1,0 +1,214 @@
+/*All sidebar and navbar code is stored on a different file and required by PHP in user_homepage.php */
+/* Static elements (these don't need to be resized) */
+body {
+    width: 100%;
+    height: 100%;
+    font-family: "Bebas Neue";
+    background-color: rgb(235, 231, 231);
+    position: relative;
+  }
+
+.dark-theme-page{
+    background-color: #3d3d3d;
+    color: white;
+}
+
+.dark-theme-ui{
+    background-color: #1b1b1b;
+    color: white;
+}
+
+.dark-theme-showcase{
+    background-color: #726e6e;
+    color: white;
+}
+
+.dark-theme-card{
+    background-color: #6d4517;
+    color: white;
+}
+
+
+.light-theme-showcase{
+    background-color: rgb(235, 231, 231);
+}
+
+.light-theme-card{
+    background-color: rgb(253, 222, 193);
+}
+
+
+.light-theme-ui {
+    background: rgba(51, 51, 51, 0.5);
+    color: rgb(0, 0, 0);
+}
+#toggleModeButton{
+    border: none;
+    color: rgb(48, 48, 48);
+    padding: 15px;
+    text-decoration: none;
+    box-shadow: black;
+    font-size: 10px;
+    z-index: 2;
+}
+p{
+    font-size: 25px;
+    font-family: "Bebas Neue";
+}
+
+h1{
+    font-size: 40px;
+    font-family: "Bebas Neue";
+}
+h2{
+    font-size: 35px;
+    font-family: "Bebas Neue";
+}
+
+#centertxt{
+    margin-top: 10px;;
+      box-shadow: rgba(0, 0, 0, 0.45) 0px 0px 5px 0px;
+      color: white;
+      overflow: hidden;
+      position: relative;
+      width: 100%;
+      height: 200px;
+      box-shadow: rgba(0, 0, 0, 0.19) 10px 0 8px 0;
+      border-radius: 10px;
+}
+
+#top_text {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    font-size: 150px;
+    float: center;
+    background-color: rgba(165, 42, 42, 0.562); 
+}
+.main {
+    margin-left: 90px;
+    margin-right: 20px;
+    padding: 10px;
+}
+
+.container_section1, .container_section2, .container_section3 {
+
+
+}
+.cont1_top, .cont1_mid, .cont1_bottom{
+    margin-top: 35px;
+    display: flex;
+    margin-bottom: 35px;
+}
+#cont1_top_left, #cont1_top_right, #cont1_mid_left, #cont1_mid_right-1, #cont1_mid_right-2, #cont1_bottom-1, #cont1_bottom-2, #cont1_bottom-3, #cont2_top, #cont2_bottom, #card-1, #card-2, #card-3 {
+    padding: 30px;
+    margin-left: 15px;
+    margin-right: 15px;
+    box-shadow: rgba(0, 0, 0, 0.45) 0px 0px 10px 0px;
+    border-radius: 5px;
+    box-shadow: rgba(0, 0, 0, 0.45) 0px 0px 10px 0px;
+    transition: 300ms ease;
+}
+
+#cont1_top_left:hover, #cont1_top_right:hover, #cont1_mid_left:hover, #cont1_mid_right-1:hover, #cont1_mid_right-2:hover, #cont1_bottom-1:hover, #cont1_bottom-2:hover, #cont1_bottom-3:hover, #cont2_top:hover, #cont2_bottom:hover, #card-1:hover, #card-2:hover, #card-3:hover  {
+       -moz-box-shadow: rgba(0, 0, 0, 0.45) 0px 0px 20px 0px;
+    -webkit-box-shadow: rgba(0, 0, 0, 0.45) 0px 0px 20px 0px;
+    box-shadow: rgba(0, 0, 0, 0.45) 0px 0px 20px 0px;
+
+}
+#cont2_top {
+    margin-top: 50px;
+    height: 200px; 
+}
+
+#cont2_bottom {
+    margin-top: 50px;
+    height: 500px;
+    margin-bottom: 50px;
+}
+
+.container-section3 {
+    display: flex;
+    margin-bottom: 30px;
+}
+
+#card-1, #card-2, #card-3{
+    width: 30%;
+    height: 150px;
+}
+
+
+#cont1_top_left{
+    width:  20%;
+    justify-items: center;
+    height: 600px;
+}
+
+#cont1_top_right {
+    width: 80%;
+    height: 600px;
+}
+
+#cont1_mid_left {
+    width: 60%;
+    height: 400px;
+}
+
+#cont1_mid_right-1 {
+    width: 20%;
+    height: 400px;
+}
+
+#cont1_mid_right-2 {
+    width: 20%;
+    height: 400px;
+}
+
+#cont1_bottom-1, #cont1_bottom-3 {
+    width: 25%;
+    height: 200px;
+}
+
+#cont1_bottom-2 {
+    width: 40%;
+    height: 200px;
+}
+
+
+
+  
+
+
+  /*Tablet-friendly CSS */
+@media screen and (max-width: 1400px) {
+   
+}
+
+@media screen and (max-width: 900px){
+    p{
+        font-size: 20px;
+    }
+    h1{
+        font-size: 35px;
+    }
+    h2{
+        font-size: 30px;
+    }
+}
+
+/* Mobile-friendly CSS */
+@media screen and (max-width: 800px){
+    .content {
+        margin-left: -100px;
+    }
+    #centertxt{
+        width: 100%;
+        border-radius: 1px;
+        margin-left: -100px;
+    }
+  
+}
+
+@media screen and (max-width: 650px){
+  
+}

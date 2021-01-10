@@ -52,6 +52,7 @@ h6 {
   font-size: 0.8rem;
   font-weight: 0;
   letter-spacing: 0.1rem;
+  padding-left: 10px;
 }
 
 header.masthead {
@@ -175,4 +176,9 @@ header.masthead .bg-circle-4 {
 input {
   width: 100%;
   text-align: center;
+}
+
+#dark {
+  background-color: #242424;
+  color: #ffffff;
 }

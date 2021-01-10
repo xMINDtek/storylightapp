@@ -1,0 +1,71 @@
+/*Navbar - I'm trying to localize the code becasue for some reason the cloudfair scrips were messing with the page fonts. */
+
+
+/* Static elements (these don't need to be resized) */
+body {
+    width: 100%;
+    height: 100%;
+    font-family: "Bebas Neue";
+
+  }
+
+
+#toggleModeButton{
+    border: none;
+    color: rgb(48, 48, 48);
+    padding: 15px;
+    text-decoration: none;
+    box-shadow: black;
+    font-size: 10px;
+    z-index: 2;
+}
+p{
+    font-size: 25px;
+    font-family: "Bebas Neue";
+}
+
+h1{
+    font-size: 40px;
+    font-family: "Bebas Neue";
+}
+h2{
+    font-size: 35px;
+    font-family: "Bebas Neue";
+}
+
+
+/*Non-static elements (please add to Media query) */
+
+.content {
+    width: 100%;
+    margin-left: 20px;
+    margin-right: 20px;
+    display: flex;
+    align-content: center;
+}
+#centertxt{
+    position: absolute;
+    overflow: hidden;
+    height: 300px;
+    padding: 20px;
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-top: 10px;
+    font-size: 35px;
+    padding: 1px;
+    border-radius: 4px;
+    box-shadow: rgba(0, 0, 0, 0.19) 0 0 8px 0;
+}
+
+  #top_text {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    background: rgba(51, 51, 51, 0.5);
+}
+
+  .main {
+    margin-left: 20px;
+    margin-right: 20px;
+  }
+  
